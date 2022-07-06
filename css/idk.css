@@ -1,0 +1,21 @@
+/*CAMBIOS A LA PAGINA DE cambios y updates :u*/
+html{
+    padding: 15px;
+    margin: 15px 15px 15px 15px;
+}
+::-webkit-scrollbar{
+width: 20px;
+height: 10px;
+}
+::-webkit-scrollbar-thumb{
+    
+    background-color:#51af51;
+}
+::-webkit-scrollbar-track{
+    background: gray;
+}
+span{
+    color:#51af51;
+
+}
+
