@@ -1,9 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+      <!-- Favicon -->
+      <link href="img/favicon.ico" rel="icon">
+
+      <!-- Google Web Fonts -->
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+      <!-- Font Awesome -->
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+  
     
     <!-- Customized Bootstrap Stylesheet -->
-    <link rel="stylesheet" href="/Garnic/css/idk.css">
+    <link rel="stylesheet" href="/css/idk.css">
     <link href="css/style.css" rel="stylesheet">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,8 +21,86 @@
     <title>Modificar Datos de una planta</title>
 </head>
 <body>
-    <h2 class="text-uppercase mb-md-3">Cambios </h2>
+      <!-- Topbar Start -->
+      <div class="container-fluid bg-primary py-3 d-none d-md-block">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center text-lg-left mb-2 mb-lg-0">
+                    <div class="d-inline-flex align-items-center">
+                        <a class="text-white pr-3" href="">Inicio</a>
+                        <span class="text-white">|</span>
+                        <a class="text-white px-3" href="">Ayuda</a>
+                        <span class="text-white">|</span>
+                        <a class="text-white px-3" href="Login.html">Login</a>
+                        <span class="text-white"></span>
+                        
+                        <!-- <span class="text-white">|</span>
+                        <a class="text-white px-3" href="adminMenu.html">Admin Menu</a> -->
+                    </div>
+                </div>
+                <div class="col-md-6 text-center text-lg-right">
+                    <div class="d-inline-flex align-items-center">
+                        <a class="text-white px-3" href="">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a class="text-white px-3" href="">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a class="text-white px-3" href="">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a class="text-white px-3" href="">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a class="text-white pl-3" href="">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+
+    <!-- Navbar Start -->
+    <div class="container-fluid position-relative nav-bar p-0">
+        <div class="container-lg position-relative p-0 px-lg-3" style="z-index: 9;">
+            <nav class="navbar navbar-expand-lg bg-white navbar-light shadow p-lg-0">
+                <a href="index.html" class="navbar-brand d-block d-lg-none">
+                    <h1 class="m-0 display-4 text-primary"><span class="text-secondary">G</span>arnic</h1>
+                </a>
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                    <div class="navbar-nav ml-auto py-0">
+                        <a href="index.html" class="nav-item nav-link active">Inicio</a>
+                        <a href="adminMenu.html" class="nav-item nav-link">Admin</a>
+                        
+                    </div>
+                    <a href="index.html" class="navbar-brand mx-5 d-none d-lg-block">
+                        <h1 class="m-0 display-4 text-greenTexto"><span class="text-greenTexto">G</span>ARNIC</h1>
+                    </a>
+                    <div class="navbar-nav mr-auto py-0">
+                        <a href="Helechos.html" class="nav-item nav-link">Helechos</a>
+                        <a href="Arbustos.html" class="nav-item nav-link">Arbustos</a>
+                        <a href="Regionales.html" class="nav-item nav-link">De la región</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- Navbar End -->
+
+
    <!-- FORMULARIO -->
+   <div id="ContenedorCS" class="container ">
+    <div class="card  shadow-lg text-black" style="max-width:auto;">
+        <div id="CH" class="card-header row justify-content-center">Cambios</div>
+        <div class="card-body">
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
     <form> 
         <div class="form-group">
             <label for="Nombre comun">Nombre de la Planta</label>
@@ -45,12 +133,18 @@
             <div class="form-group">
                 <label for="Existencia">Existencia</label>
                 <input class="form-control" type="text" placeholder="Cuantos hay">
+          
+            <div>
+              <center> <input id="update" type="submit" value="Enviar Formulario"> </center>
+                
             </div>
-
-            <div><center>
-                <input id="update" type="submit" value="Enviar Formulario">
-                 </center> </div><br><br>
+        </div>
+        </div>
+        </div>    
     </form>
+        </div></div></div>
+
+
     <!--FIN DEL FORMULARIO-->
      <!-- Footer Start -->
      <div class="container-fluid footer bg-light py-5" style="margin-top: 90px;">
