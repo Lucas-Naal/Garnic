@@ -22,6 +22,7 @@
   --gray-dark: #343a40;
   --primary: #389749;
   --secondary: #62C3E7;
+  --tercy : #b6ad90;
   --success: #28a745;
   --info: #17a2b8;
   --warning: #ffc107;
@@ -10175,4 +10176,25 @@ h6,
 }
 .boton-altas:hover{
   background-color: #073d0a;
+}
+.bg-tercy{
+  background-color: var(--tercy);
+}
+.txt-brown{
+  color: #582f0e;
+}
+.boton-compra-cafe{
+  width: 8rem;
+  height: 4rem;
+  padding: 1rem;
+  background-color: #582f0e;
+  color: #fefae0;
+  border: none;
+  border-radius: 2rem;
+}
+.boton-compra-cafe:hover{
+  background:#936639 ;
+}
+.ajustar-img{
+  width: 75%;
 }
