@@ -10159,3 +10159,20 @@ h6,
   margin: 0 auto !important;
   margin: 2rem !important;
 }
+.bg-col-blue{
+  background-color: blue !important;
+}
+.ps-rel-bot{
+  position: absolute !important;
+  bottom: 0 !important;
+  margin-bottom: 2rem;
+}
+.h-500{
+  height: 500px;
+}
+.boton-altas{
+  background-color: var(--primary);
+}
+.boton-altas:hover{
+  background-color: #073d0a;
+}
