@@ -1,8 +1,5 @@
-/*CAMBIOS A LA PAGINA DE cambios y updates :u*/
-html{
-    padding: 15px;
-    margin: 15px 15px 15px 15px;
-}
+/*CAMBIOS A LA PAGINA DE cambios y updates
+actualizacion: igual lo linkee a Login por el padding*/
 ::-webkit-scrollbar{
 width: 20px;
 height: 10px;
@@ -19,3 +16,14 @@ span{
 
 }
 
+#CH{
+    padding-top: 20px;
+    font-size:40px;
+}
+#ContenedorCS{
+    padding: 20px 20px 20px 20px;
+}
+
+#update{
+    margin: 40px;
+}
