@@ -21,17 +21,19 @@
     <title>Vista Administrador</title>
 </head>
 <body>
-     <!-- Topbar Start -->
-     <div class="container-fluid bg-primary py-3 d-none d-md-block">
+       <!-- Topbar Start -->
+    <div class="container-fluid bg-primary py-3 d-none d-md-block">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 text-center text-lg-left mb-2 mb-lg-0">
                     <div class="d-inline-flex align-items-center">
                         <a class="text-white pr-3" href="">Inicio</a>
+                        <span class="text-white"></span>
+                       
                         <span class="text-white">|</span>
-                        <a class="text-white px-3" href="">Ayuda</a>
+                        <a class="text-white px-3" href="LoginMenu.html">Login</a>
                         <span class="text-white">|</span>
-                        <a class="text-white px-3" href="Login.html">Login</a>
+                        <a class="text-white px-3" href="PerfilUsuario.html">Perfil</a>
                         <span class="text-white"></span>
                         
                         <!-- <span class="text-white">|</span>
@@ -68,7 +70,7 @@
         <div class="container-lg position-relative p-0 px-lg-3" style="z-index: 9;">
             <nav class="navbar navbar-expand-lg bg-white navbar-light shadow p-lg-0">
                 <a href="index.html" class="navbar-brand d-block d-lg-none">
-                    <h1 class="m-0 display-4 text-primary"><span class="text-secondary">G</span>arnic</h1>
+                    <h1 class="m-0 display-4">Garnic</h1>
                 </a>
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                     <span class="navbar-toggler-icon"></span>
@@ -80,7 +82,7 @@
                         
                     </div>
                     <a href="index.html" class="navbar-brand mx-5 d-none d-lg-block">
-                        <h1 class="m-0 display-4 text-greenTexto"><span class="text-greenTexto">G</span>ARNIC</h1>
+                        <h1 class="m-0 display-4">GARNIC</h1>
                     </a>
                     <div class="navbar-nav mr-auto py-0">
                         <a href="Helechos.html" class="nav-item nav-link">Helechos</a>
@@ -92,10 +94,18 @@
         </div>
     </div>
     <!-- Navbar End -->
-<br><br>
+     <!-- Header Start -->
+     <div class="jumbotron jumbotron-fluid page-header" style="margin-bottom: 90px;">
+        <div class="container text-center py-5">
+            <h1 class="text-white display-3 mt-lg-5">Bajas de plantas</h1>
+            <div class="d-inline-flex align-items-center text-white">
+            </div>
+        </div>
+    </div>
+    <!-- Header End -->
+
 <div id="ContenedorCS" class="container ">
     <div class="card  shadow-lg text-black" style="max-width:auto;">
-        <div id="CH" class="card-header row justify-content-center">Bajas</div>
         <div id="CH" class="card-header row justify-content-center">Rellene los campos</div>
         <div class="card-body">
             <div class="row justify-content-center">
@@ -118,7 +128,7 @@
         </div>
 
         <div><center>
-            <input type="submit" id="btn" value="Enviar Formulario">
+            <input id="bajas" type="button" value="Enviar Formulario">
              </center> </div>
             </form>
                 </div></div></div></div></div>
@@ -131,17 +141,19 @@
             <div class="row">
                 <div class="col-12 mt-2 mb-4">                    
                     <a href="index.html" class="navbar-brand m-0">
-                        <h1 class="code m-0 mt-n2 display-4 text-primary"><span class="code">GARNIC</h1>
+                        <h1 class="code m-0 mt-n2 display-4"><span class="code">GARNIC</h1>
                     </a>                
                 </div>
                 <div class="col-12">
-                    <p class="m-0">&copy; <a href="#">GNU/GPL</a>. todos los derechos reservados a LPN &#x1F335;
+                    <p class="m-0">&copy; <a href="#">GNU/GPL</a>. todos los derechos reservados a LPN
                     </p>
                 </div>
             </div>
         </div>
     </div>
     <!-- Footer End -->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="/js/alertabajas.js"></script>
 </body>
-<script src="/Garnic/js/alertas.js"></script>
+
 </html>

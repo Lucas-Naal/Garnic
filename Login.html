@@ -18,17 +18,19 @@
         <link href="css/style.css" rel="stylesheet">
     </head>
     <body>
-          <!-- Topbar Start -->
-    <div class="container-fluid bg-primary py-3 d-none d-md-block">
+     <!-- Topbar Start -->
+     <div class="container-fluid bg-primary py-3 d-none d-md-block">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 text-center text-lg-left mb-2 mb-lg-0">
                     <div class="d-inline-flex align-items-center">
                         <a class="text-white pr-3" href="">Inicio</a>
                         <span class="text-white">|</span>
-                        <a class="text-white px-3" href="">Ayuda</a>
+                       
                         <span class="text-white">|</span>
-                        <a class="text-white px-3" href="Login.html">Login</a>
+                        <a class="text-white px-3" href="LoginMenu.html">Login</a>
+                        <span class="text-white">|</span>
+                        <a class="text-white px-3" href="PerfilUsuario.html">Perfil</a>
                         <span class="text-white"></span>
                         
                         <!-- <span class="text-white">|</span>
@@ -59,12 +61,13 @@
     </div>
     <!-- Topbar End -->
 
+
     <!-- Navbar Start -->
     <div class="container-fluid position-relative nav-bar p-0">
         <div class="container-lg position-relative p-0 px-lg-3" style="z-index: 9;">
             <nav class="navbar navbar-expand-lg bg-white navbar-light shadow p-lg-0">
                 <a href="index.html" class="navbar-brand d-block d-lg-none">
-                    <h1 class="m-0 display-4 text-primary"><span class="text-secondary">G</span>arnic</h1>
+                    <h1 class="m-0 display-4">Garnic</h1>
                 </a>
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                     <span class="navbar-toggler-icon"></span>
@@ -76,7 +79,7 @@
                         
                     </div>
                     <a href="index.html" class="navbar-brand mx-5 d-none d-lg-block">
-                        <h1 class="m-0 display-4 text-greenTexto"><span class="text-greenTexto">G</span>ARNIC</h1>
+                        <h1 class="m-0 display-4">GARNIC</h1>
                     </a>
                     <div class="navbar-nav mr-auto py-0">
                         <a href="Helechos.html" class="nav-item nav-link">Helechos</a>
@@ -88,11 +91,10 @@
         </div>
     </div>
     <!-- Navbar End -->
-
 <!--Form Start-->
 <div id ="cardH"  class="container ">
     <div class="card  shadow-lg text-black" style="max-width:auto;">
-        <div id="titlecard" class="card-title row justify-content-center">Inicio De Sesión</div>
+        <div id="titlecard" class="card-title row justify-content-center">Inicio de sesión</div>
         <div class="card-body">
             <div class="row justify-content-center">
                 <div class="col-lg-6">
@@ -109,6 +111,7 @@
                       <input type="password" id="form2Example2" class="form-control" />
                     </div>
                     
+                    
                     <!-- 2 column grid layout for inline styling -->
                     <div class="row mb-4">
                       <div class="col d-flex justify-content-center">
@@ -118,6 +121,8 @@
                           <label class="form-check-label" for="form2Example31"> Recuerdame </label>
                         </div>
                       </div>
+                      
+                  
                     
                       <div class="col">
                         <!-- Simple link -->
@@ -130,7 +135,8 @@
                     
                     <!-- Register buttons -->
                     <div class="text-center">
-                      <p>¿no tienes una cuenta? <a href="#!">Registrate</a></p>
+                      <p>¿no tienes una cuenta? <a href="Sig">Registrate</a></p>
+                     
                       <p>o inicia sesion con:</p>
                       <button type="button" class="btn btn-link btn-floating mx-1">
                         <i><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-facebook" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -138,6 +144,7 @@
                             <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
                           </svg></i>
                       </button>
+                      
                     
                       <button type="button" class="btn btn-link btn-floating mx-1">
                         <i><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-google" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -159,6 +166,7 @@
         </div>
     </div>
 </div>
+
     <!--Form End-->
 
          <!-- Footer Start -->
